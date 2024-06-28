@@ -1,6 +1,6 @@
 async function fetchData() {
-    const sheetId = 'TU_HOJA_DE_CALCULO_ID'; // Reemplaza con tu ID de hoja de cálculo
-    const apiKey = 'TU_API_KEY'; // Reemplaza con tu clave API
+    const sheetId = '1837417916#gid=1837417916'; // Reemplaza con tu ID de hoja de cálculo
+    const apiKey = '0UIAegsV2S_XrAqBbmi32Fl9'; // Reemplaza con tu clave API
 
     const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/Hoja1?key=${apiKey}`);
     const data = await response.json();
